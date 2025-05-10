@@ -15,7 +15,7 @@ function flipImage(index) {
         flippedCards++; // Incrementamos el contador
 
         // Si todas las cartas han sido volteadas, cambiamos el comportamiento
-        if (flippedCards === 4) {
+        if (flippedCards === 8) {
             setSelectableMode();
         }
     } else {
